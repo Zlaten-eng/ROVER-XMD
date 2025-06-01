@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart GOTAR-XMD",  
+    desc: "Restart ROVER-XMD",  
     category: "owner",  
     filename: __filename  
 },  
@@ -14,7 +14,7 @@ async (conn, mek, m, { reply, isCreator }) => {
         }  
 
         const { exec } = require("child_process");  
-        reply("gotar-xmd Restarting...");  
+        reply("ROVER-XMD Restarting...");  
         await sleep(1500);  
         exec("pm2 restart all");  
     } catch (e) {  
