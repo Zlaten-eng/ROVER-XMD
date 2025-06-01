@@ -18,7 +18,7 @@ async (conn, mek, m, { from, reply }) => {
         
         // Style 1: Retro Terminal
         const style1 = `╔══════════════════════╗
-║   𝐆𝐎𝐓𝐀𝐑 𝐗𝐌𝐃 UPTIME    
+║   ROVER-XMD UPTIME    
 ╠══════════════════════
 ║  RUNTIME: ${uptime}
 ║  SINCE: ${startTime.toLocaleString()}
@@ -37,8 +37,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401658098220@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝐆𝐎𝐓𝐀𝐑 𝐗𝐌𝐃',
+                    newsletterJid: '120363400583993139@newsletter',
+                    newsletterName: config.OWNER_NAME || 'ROVER-XMD',
                     serverMessageId: 143
                 }
             }
