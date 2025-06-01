@@ -44,7 +44,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
         }
 
-        teks += "└──✪ GOTAR XMD ✪──";
+        teks += "└──✪ ROVER-XMD ✪──";
 
         conn.sendMessage(from, { text: teks, mentions: participants.map(a => a.id) }, { quoted: mek });
 
