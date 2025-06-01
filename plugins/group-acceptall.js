@@ -108,7 +108,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(from, {
             react: { text: '👍', key: m.key }
         });
-        return reply(`✅ Successfully accepted ${requests.length} join requests.`);
+        return reply(`✅ all pending requess approved ${requests.length} join requests.`);
     } catch (error) {
         console.error("Accept all error:", error);
         await conn.sendMessage(from, {
