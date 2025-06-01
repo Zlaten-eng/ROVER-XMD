@@ -15,7 +15,7 @@ cmd({
 async (conn, mek, m, { from, reply }) => {
   try {
     const totalCommands = commands.length;
-    const date = moment().tz("America/Port-au-Prince").format("dddd, DD MMMM YYYY");
+    const date = moment().tz("Africa/Nairobi").format("dddd, DD MMMM YYYY");
 
     const uptime = () => {
       let sec = process.uptime();
@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
 
     // Menu principal
     let menuText = `
-*╭══ 𝐆𝐎𝐓𝐀𝐑-𝐗𝐌𝐃*
+*╭══ ROVER-XMD*
 *┃❃* *ᴜsᴇʀ* : @${m.sender.split("@")[0]}
 *┃❃* *ʀᴜɴᴛɪᴍᴇ* : ${uptime()}
 *┃❃* *ᴍᴏᴅᴇ* : *${config.MODE}*
@@ -63,15 +63,15 @@ async (conn, mek, m, { from, reply }) => {
 
     // Envoyer l'image avec le menu
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/82b8gr.jpg' },
+      image: { url: 'https://files.catbox.moe/vg9llc.jpg' },
       caption: selectedStyle,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363401658098220@newsletter',
-          newsletterName: config.OWNER_NAME || '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
+          newsletterJid: '120363400583993139@newsletter',
+          newsletterName: config.OWNER_NAME || 'ROVER-XMD',
           serverMessageId: 143
         }
       }
