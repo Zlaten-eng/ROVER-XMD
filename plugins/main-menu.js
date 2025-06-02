@@ -33,7 +33,7 @@ async (conn, mek, m, { from, reply }) => {
 *┃❃* *ᴍᴏᴅᴇ* : *${config.MODE}*
 *┃❃* *ᴘʀᴇғɪx* : [ ${config.PREFIX} ]
 *┃❃* *ᴩʟᴜɢɪɴ* : ${totalCommands}
-*┃❃* *ᴅᴇᴠ* : *ɢᴏᴛᴀʀ-ᴛᴇᴄʜ*
+*┃❃* *ᴅᴇᴠ* : *HACKLINK TECH.INC*
 *┃❃* *ᴠᴇʀsɪᴏɴs* :
 *┕──────────────❒*
 `;
