@@ -45,7 +45,7 @@ async (conn, mek, m, { from, reply }) => {
 │ • URL: ${repoData.html_url}
 │ • Desc: ${repoData.description || 'None'}
 └──────────────────────┘
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ HACKLINK TECH.INC*`;
 
         await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/vg9llc.jpg` },
