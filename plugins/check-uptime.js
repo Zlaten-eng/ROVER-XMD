@@ -24,7 +24,7 @@ async (conn, mek, m, { from, reply }) => {
 ║  SINCE: ${startTime.toLocaleString()}
 ╚══════════════════════╝
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ HACKLINK TECH.INC*`;
 
 
         const styles = [style1];
