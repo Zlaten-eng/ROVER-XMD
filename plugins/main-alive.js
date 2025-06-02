@@ -25,7 +25,7 @@ async (conn, mek, m, { from, sender, reply }) => {
 │🖥️ *Host:* ${os.hostname()}
 │⌛ *Uptime:* ${runtime(process.uptime())}
 ╰────────────────────◉
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*}`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ HACKLINK TECH.INC*}`;
 
         await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/vg9llc.jpg` },
