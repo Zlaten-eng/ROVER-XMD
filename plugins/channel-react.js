@@ -84,7 +84,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃▸ *Reaction:* ${emoji}
 ╰────────────────┈⊷
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*`);
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ HACKLINK TECH.INC*`);
 
     } catch (e) {
 
@@ -96,4 +96,4 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 });
 
-// *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅʏʙʏ ᴛᴇᴄʜ* 
+// *ᴘᴏᴡᴇʀᴇᴅ BY HACKLINK TECH.INC ᴛᴇᴄʜ* 
